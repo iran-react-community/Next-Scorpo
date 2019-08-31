@@ -1,0 +1,40 @@
+{
+  "name": "scorpo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "dev": "NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.0",
+    "cacheable-response": "^1.6.12",
+    "express": "^4.17.1",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.3",
+    "mobx-state-tree": "^3.14.1",
+    "next": "9.0.5",
+    "next-offline": "^4.0.5",
+    "node-sass": "^4.12.0",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "babel-jest": "24.1.0",
+    "coveralls": "^3.0.6",
+    "enzyme": "3.4.3",
+    "enzyme-adapter-react-16": "1.2.0",
+    "jest": "24.1.0",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.4.2"
+  }
+}
