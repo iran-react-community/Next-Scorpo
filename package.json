@@ -21,7 +21,7 @@
     "mobx-state-tree": "^3.14.1",
     "next": "9.0.5",
     "next-offline": "^4.0.5",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "path": "^0.12.7",
     "querystring": "^0.2.0",
     "react": "16.9.0",
